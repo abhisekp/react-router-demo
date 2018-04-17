@@ -1,0 +1,14 @@
+{
+  "sourceMaps": true,
+  "presets": [
+    "@babel/preset-flow",
+    "@babel/preset-stage-0",
+    [
+      "@babel/preset-env",
+      {
+        "loose": true
+      }
+    ]
+  ],
+  "plugins": ["react-require"]
+}
